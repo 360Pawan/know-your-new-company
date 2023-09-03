@@ -1,3 +1,9 @@
+import { HeroHome } from "@/module/home/hero";
+
 export default function Home() {
-  return <main className="">Hola</main>;
+  return (
+    <main className="">
+      <HeroHome />
+    </main>
+  );
 }
